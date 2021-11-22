@@ -29,6 +29,13 @@ ul.popover{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+div.locations ul, div.amenities ul{
+    display: none;
+}
+section.filters div.locations:hover > ul, section.filters div.amenities:hover > ul{
+    display: block;
+    z-index: 999;
+}
 section.filters div.locations, section.filters div.amenities {
     height: 100%;
     width: 25%;
